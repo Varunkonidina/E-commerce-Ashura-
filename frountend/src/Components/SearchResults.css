@@ -1,0 +1,120 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.products-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.products-grid .card {
+  width: 220px;
+  height: 50vh;
+  cursor: pointer;
+  background-color: #ffffff;
+  border: 1px solid #BFC6C4;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.products-grid .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(38, 59, 106, 0.15);
+  border-color: #6F8F72;
+}
+
+.products-grid .card-img-top {
+  height: 70%;
+  object-fit: cover;
+  border-bottom: 1px solid #E8E2D8;
+}
+
+.products-grid .card-body {
+  padding: 0.5rem;
+  background-color: #ffffff;
+}
+
+.products-grid .card-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #263B6A;
+}
+
+.products-grid .text-muted {
+  font-size: 0.8rem;
+  margin-bottom: 0.2rem;
+  color: #6F8F72 !important;
+}
+
+.products-grid .text-success {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #263B6A !important;
+}
+
+.sidebar-filter {
+  width: 250px;
+  flex-shrink: 0;
+  border: 1px solid #BFC6C4;
+  padding: 1rem;
+  background-color: #E8E2D8;
+  border-radius: 5px;
+  height: fit-content;
+}
+
+.sidebar-filter h5 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #263B6A;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.sidebar-filter label {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 0.3rem;
+  cursor: pointer;
+  color: #263B6A;
+}
+
+.sidebar-filter input[type="checkbox"],
+.sidebar-filter input[type="radio"] {
+  margin-right: 0.5rem;
+  accent-color: #6F8F72;
+}
+
+.text-center {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  color: #263B6A;
+}
+
+@media (max-width: 992px) {
+  .container {
+    padding: 0 1rem;
+  }
+  .sidebar-filter {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+  .products-grid {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .products-grid .card {
+    width: 45%;
+    margin-bottom: 1rem;
+  }
+}

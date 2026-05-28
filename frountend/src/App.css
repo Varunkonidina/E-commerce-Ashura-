@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; 
+  font-family: 'Poppins', Arial, sans-serif;
+  background-color: #E8E2D8;
+  color: #263B6A;
+}
+
+.Trending {
+  margin: 20vh 0px;
+  background-color: #E8E2D8;
+}

@@ -1,0 +1,104 @@
+.profile-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(38, 59, 106, 0.1);
+  border: 1px solid #BFC6C4;
+  font-family: 'Poppins', sans-serif;
+}
+
+.profile-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #263B6A;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.profile-row {
+  margin-bottom: 20px;
+}
+
+.profile-row label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #6F8F72;
+}
+
+.profile-value {
+  padding: 10px;
+  background: #E8E2D8;
+  border-radius: 6px;
+  color: #263B6A;
+  border: 1px solid rgba(191, 198, 196, 0.3);
+}
+
+.profile-input-group {
+  display: flex;
+  gap: 10px;
+}
+
+.profile-input-group input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #BFC6C4;
+  border-radius: 6px;
+  outline: none;
+  background-color: #ffffff;
+  color: #263B6A;
+  transition: border 0.3s;
+}
+
+.profile-input-group input:focus {
+  border-color: #6F8F72;
+}
+
+.profile-input-group button {
+  padding: 10px 16px;
+  border: none;
+  background: #263B6A;
+  color: #E8E2D8;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.profile-input-group button:hover {
+  background: #6F8F72;
+}
+
+.profile-section {
+  margin-top: 25px;
+}
+
+.profile-header {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.profile-icon {
+  font-size: 32px;
+  color: #6F8F72;
+}
+
+@media (max-width: 600px) {
+  .profile-container {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .profile-input-group {
+    flex-direction: column;
+  }
+
+  .profile-input-group button {
+    width: 100%;
+  }
+}

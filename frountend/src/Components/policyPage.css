@@ -1,0 +1,84 @@
+.policy-container {
+  background-color: #E8E2D8;
+  min-height: 100vh;
+  padding: 40px 20px;
+  color: #263B6A;
+  font-family: "Poppins", sans-serif;
+}
+
+.policy-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  gap: 40px;
+}
+
+.policy-sidebar {
+  width: 250px;
+  border: 1px solid #BFC6C4;
+  border-radius: 4px;
+  padding: 20px;
+  background: white;
+  height: fit-content;
+}
+
+.policy-sidebar h3 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #6F8F72;
+  text-transform: uppercase;
+}
+
+.policy-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.policy-sidebar li {
+  margin-bottom: 10px;
+}
+
+.policy-sidebar a {
+  text-decoration: none;
+  color: #263B6A;
+  font-size: 13px;
+  transition: color 0.3s ease;
+}
+
+.policy-sidebar a:hover {
+  color: #6F8F72;
+  text-decoration: underline;
+}
+
+.policy-content {
+  flex: 1;
+  background: white;
+  padding: 30px;
+  border: 1px solid #BFC6C4;
+  border-radius: 4px;
+  box-shadow: 0 4px 15px rgba(38, 59, 106, 0.05);
+}
+
+.policy-content h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #E8E2D8;
+  padding-bottom: 10px;
+  color: #263B6A;
+}
+
+.policy-text h2 {
+  font-size: 18px;
+  margin-top: 25px;
+  color: #6F8F72;
+  font-weight: 600;
+}
+
+.policy-text p {
+  line-height: 1.6;
+  font-size: 14px;
+  color: #263B6A;
+  margin-bottom: 15px;
+}

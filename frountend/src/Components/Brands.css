@@ -1,0 +1,72 @@
+.brand-container {
+    margin: 40px 20px;
+    background-color: #E8E2D8;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.brand-title {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-weight: bold;
+    color: #263B6A;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.brand-scroll {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+
+.brand-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.brand-card {
+    min-width: 20vw;
+    height: 20vw;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #BFC6C4;
+}
+
+.brand-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.brand-card p {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    line-height: 30px;
+    font-size: 30px;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #263B6A;
+}
+
+.brand_name {
+    opacity: 1;
+}
+
+.brand-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(38, 59, 106, 0.2);
+    border-color: #6F8F72;
+}
+
+.brand-card:hover .brand_name {
+    opacity: 1;
+    color: #6F8F72;
+}

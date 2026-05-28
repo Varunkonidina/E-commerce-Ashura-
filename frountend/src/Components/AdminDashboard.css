@@ -1,0 +1,179 @@
+.admin-container {
+  display: flex;
+  height: 120vh;
+  background: #E8E2D8;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.sidebar {
+  width: 240px;
+  background: white;
+  padding: 20px;
+  border-right: 1px solid #BFC6C4;
+}
+
+.logo {
+  color: #263B6A;
+  margin-bottom: 30px;
+}
+
+.sidebar li {
+  list-style: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #263B6A;
+  transition: all 0.2s ease;
+}
+
+.sidebar li:hover {
+  background: #E8E2D8;
+}
+
+.active {
+  background: #263B6A;
+  color: #E8E2D8 !important;
+  font-weight: 600;
+}
+
+.submenu {
+  padding-left: 25px;
+  font-size: 14px;
+  color: #6F8F72;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px 30px;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.top-actions input,
+.top-actions select {
+  padding: 6px;
+  border: 1px solid #BFC6C4;
+  border-radius: 6px;
+  background: white;
+  color: #263B6A;
+}
+
+.btn-add {
+  background: #263B6A;
+  color: #E8E2D8;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.btn-add:hover {
+  background: #6F8F72;
+}
+
+.table-card {
+  background: white;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(38, 59, 106, 0.05);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  color: #6F8F72;
+  text-align: left;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+td {
+  padding: 12px;
+  color: #263B6A;
+}
+
+tbody tr {
+  border-top: 1px solid #E8E2D8;
+}
+
+tbody tr:hover {
+  background: #F9F8F6;
+}
+
+.product-cell {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.product-cell img {
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  object-fit: cover;
+  border: 1px solid #BFC6C4;
+}
+
+.status {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.status.active {
+  background: #E8E2D8;
+  color: #6F8F72;
+}
+
+.status.scheduled {
+  background: #263B6A;
+  color: #E8E2D8;
+}
+
+.status.draft {
+  background: #BFC6C4;
+  color: #263B6A;
+}
+
+.pagination {
+  margin-top: 15px;
+  display: flex;
+  gap: 5px;
+}
+
+.pagination button {
+  padding: 6px 12px;
+  border: 1px solid #BFC6C4;
+  background: white;
+  color: #263B6A;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.pagination button:hover {
+  background: #E8E2D8;
+}
+
+.active-page {
+  background: #263B6A !important;
+  color: #E8E2D8 !important;
+  border-color: #263B6A !important;
+}
